@@ -153,14 +153,14 @@
 
 @media (min-width: 1280px) {
     #nav {
-        height: 3.90625rem;
+        /* height: 3.90625rem; */
         top: 0;
         border-radius: 0 0 0.625rem 0.625rem;
     }
 
-    .nav-button {
+    /* .nav-button {
         font-size: 1.5625rem;
-    }
+    } */
 
     #home {
         padding: 23vh 2.5vw 0;
@@ -183,17 +183,17 @@
     }
 
     .icons {
-        height: 2.25rem;
-        width: 2.25rem;
+        height: 1.7rem;
+        width: 1.7rem;
     }
 
-    #see-projects a {
+    /* #see-projects a {
         font-size: 1.485rem;
     }
 
     #technologies a {
         font-size: 1.333rem;
-    }
+    } */
 
     #projects #projects-container {
         display: grid;
@@ -209,7 +209,7 @@
         width: 42.5vw;
     }
 
-    #projects .project-description,
+    /* #projects .project-description,
     #projects .project-buttons-box a,
     #about-me #about-me-buttons-box a,
     #about-me .about-me-description,
@@ -219,10 +219,22 @@
     #contact #email-button,
     #technologies .technology-box p {
         font-size: 1.40625rem;
-    }
+    } */
 
     #about-me #header {
-        grid-template-columns: calc(100% / 4) calc((100% / 4) * 3);
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
         align-items: center;
+    }
+
+    #about-me #about-me-buttons-box a {
+        width: fit-content;
+    }
+
+    #about-me #about-me-buttons-box {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
     }
 }

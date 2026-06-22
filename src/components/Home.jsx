@@ -8,7 +8,7 @@ export default function Home() {
         <section id="home">
             <div id="introduction">
                 <h1>Olá, sou <span id="name">Mariana Seiko Fukuoka</span></h1>
-                <p id="slogan">Construindo produtos para web com as principais tecnologias do mercado</p>
+                <p id="slogan">Construindo sistemas com as principais tecnologias do mercado</p>
             </div>
             <div id="social-box">
                 <SocialLinks linkRef='https://github.com/s-eiko' imgSrc={githubImg} alt='Ícone do GitHub' />

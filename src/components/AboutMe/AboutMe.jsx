@@ -9,10 +9,10 @@ export default function AboutMe() {
                 <img src={profileImg} alt="Foto de perfil"/>
                 <div id="header-description">
                     <h2>Sobre mim</h2>
-                    <p>Mariana Seiko Fukuoka<br/>18 anos</p>
+                    <p>Mariana Seiko Fukuoka<br/>20 anos</p>
                 </div>
             </div>
-            <p className='about-me-description'>Estudante de Análise e Desenvolvimento de Sistemas dedicada a aprender novas tecnologias! Atualmente meu foco é no front-end, mas pretendo desenvolver habilidades full-stack e me especializar no back-end futuramente.</p>
+            <p className='about-me-description'>Sou uma estudante de Análise e Desenvolvimento de Sistemas com experiência em desenvolvimento web e ensino de programação. Possuo conhecimentos em desenvolvimento front-end com React, JavaScript e CSS, além de banco de dados relacionais e programação orientada a objetos. Possuo nteresse em atuar no desenvolvimento de aplicações web e aprimorar competências em desenvolvimento full-stack.</p>
             <div id="about-me-buttons-box">
                 <a target="_blank" href="https://www.linkedin.com/in/mariana-seiko-fukuoka-456323314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Conecte-se</a>
                 <a target="_blank" href="https://docs.google.com/document/d/1ivE8mO_nuzd8aWrSJgDH30GYVZZ-I9Tj7TyTpLD5APs/edit?usp=sharing">Currículo</a>

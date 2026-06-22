@@ -85,13 +85,13 @@ hr {
     position: fixed;
     bottom: 0;
     z-index: 1;
-    height: 3.125rem;
+    height: 3rem;
     width: 100vw;
     border-radius: 0.625rem 0.625rem 0 0;
 }
 
 .nav-button {
-    font-size: 1.25rem;
+    font-size: large;
     text-decoration: none;
     color: var(--primary-bg-color);
     transition: all .5s ease;
@@ -131,7 +131,7 @@ hr {
     color: var(--title-color);
 }
 
-    /* Animating name span */
+/* Animating name span */
 
 #home h1 #name {
     opacity: 100%;
@@ -166,7 +166,6 @@ hr {
     gap: 0 0.688rem;
 }
 
-
 /* See Projects */
 
 #see-projects {
@@ -176,7 +175,7 @@ hr {
 
 #see-projects a {
     text-decoration: none;
-    font-size: 1.188rem;
+    font-size: large;
     color: var(--title-color);
     background-color: var(--secondary-bg-color);
     padding: 0.75rem 1.75rem;
@@ -204,7 +203,8 @@ hr {
 
 #technologies #technologies-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1.5rem;
 }
 
 #technologies .technology-box {
@@ -261,7 +261,7 @@ hr {
 
 #projects .project-description {
     color: var(--text-color);
-    font-size: 1.125rem;
+    font-size: medium;
     text-align: justify;
     line-height: 2.188rem;
 }
@@ -276,7 +276,7 @@ hr {
     background-color: var(--secondary-bg-color);
     border: 0.125rem solid var(--title-color);
     border-radius: 3.125rem;
-    font-size: 1.125rem;
+    font-size: medium;
     text-decoration: none;
     padding: 0.438rem 1.5rem;
     color: var(--title-color);
@@ -312,7 +312,7 @@ hr {
 }
 
 #about-me #header img {
-    width: 80%;
+    width: 10rem;
     border-radius: 100%;
 }
 
@@ -333,7 +333,7 @@ hr {
     background-color: var(--secondary-bg-color);
     border: 0.125rem solid var(--title-color);
     border-radius: 3.125rem;
-    font-size: 1.125rem;
+    font-size: medium;
     text-decoration: none;
     padding: 0.438rem 1.5rem;
     color: var(--title-color);
@@ -349,7 +349,7 @@ hr {
 #about-me .about-me-description,
 #about-me h3,
 #about-me p {
-    font-size: 1.125rem;
+    font-size: medium;
     line-height: 2.188rem;
     text-align: justify;
     color: var(--text-color);
@@ -378,7 +378,7 @@ hr {
 }
 
 #contact p {
-    font-size: 1.125rem;
+    font-size: medium;
     line-height: 2.188rem;
     color: var(--text-color);
 }
@@ -397,7 +397,7 @@ hr {
     background-color: var(--secondary-bg-color);
     border: 0.125rem solid var(--title-color);
     border-radius: 3.125rem;
-    font-size: 1.125rem;
+    font-size: medium;
     text-decoration: none;
     padding: 0.438rem 1.5rem;
     color: var(--title-color);
