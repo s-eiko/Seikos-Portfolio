@@ -28,7 +28,7 @@
 
 ::-webkit-scrollbar {
     width: 5vw;
-} 
+}
 
 ::-webkit-scrollbar-track {
     background-color: transparent;
@@ -71,6 +71,38 @@ hr {
     color: var(--secondary-bg-color);
     background: var(--secondary-bg-color);
     margin-left: 15vw;
+}
+
+/* Shared button style */
+
+.btn-outline,
+#see-projects a,
+#projects .project-buttons-box a,
+#about-me #about-me-buttons-box a,
+#contact #email-button {
+    background-color: var(--secondary-bg-color);
+    border: 0.125rem solid var(--title-color);
+    border-radius: 3.125rem;
+    font-size: medium;
+    text-decoration: none;
+    padding: 0.438rem 1.5rem;
+    color: var(--title-color);
+    transition: all .5s ease;
+}
+
+#see-projects a {
+    font-size: large;
+    box-shadow: 0 0 0.188rem 0.125rem var(--title-color);
+}
+
+.btn-outline:hover,
+#see-projects a:hover,
+#projects .project-buttons-box a:hover,
+#about-me #about-me-buttons-box a:hover,
+#contact #email-button:hover {
+    background-color: var(--title-color);
+    border-color: var(--title-color);
+    color: var(--secondary-bg-color);
 }
 
 
@@ -176,17 +208,11 @@ hr {
     margin-bottom: 1rem;
 }
 
+
 /* See Projects */
 
 #see-projects a {
-    text-decoration: none;
-    font-size: large;
-    color: var(--title-color);
-    background-color: var(--secondary-bg-color);
     padding: 0.75rem 1.75rem;
-    border-radius: 3.125rem;
-    box-shadow: 0 0 0.188rem 0.125rem var(--title-color);
-    transition: all .5s ease;
 }
 
 #see-projects a:hover {
@@ -199,7 +225,6 @@ hr {
 
 #technologies {
     text-align: center;
-    padding-bottom: 3.5rem;
     background: linear-gradient(to bottom, var(--secondary-bg-color), var(--primary-bg-color));
     padding: 3.158rem 2.5vw 22vh;
 }
@@ -279,23 +304,6 @@ hr {
     grid-gap: 5vw;
 }
 
-#projects .project-buttons-box a {
-    background-color: var(--secondary-bg-color);
-    border: 0.125rem solid var(--title-color);
-    border-radius: 3.125rem;
-    font-size: medium;
-    text-decoration: none;
-    padding: 0.438rem 1.5rem;
-    color: var(--title-color);
-    transition: all .5s ease;
-}
-
-#projects .project-buttons-box a:hover {
-    background-color: var(--title-color);
-    border: 0.125rem solid var(--title-color);
-    color: var(--secondary-bg-color);
-}
-
 #projects #see-projects {
     background: transparent;
     padding: 3.158rem 0 0.75rem;
@@ -334,23 +342,6 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5vw;
     padding: 0 2.5vw;
-}
-
-#about-me #about-me-buttons-box a {
-    background-color: var(--secondary-bg-color);
-    border: 0.125rem solid var(--title-color);
-    border-radius: 3.125rem;
-    font-size: medium;
-    text-decoration: none;
-    padding: 0.438rem 1.5rem;
-    color: var(--title-color);
-    transition: all .5s ease;
-}
-
-#about-me #about-me-buttons-box a:hover {
-    background-color: var(--title-color);
-    border: 0.125rem solid var(--title-color);
-    color: var(--secondary-bg-color);
 }
 
 #about-me .about-me-description,
@@ -398,21 +389,4 @@ hr {
 
 #contact a {
     text-decoration: none;
-}
-
-#contact #email-button {
-    background-color: var(--secondary-bg-color);
-    border: 0.125rem solid var(--title-color);
-    border-radius: 3.125rem;
-    font-size: medium;
-    text-decoration: none;
-    padding: 0.438rem 1.5rem;
-    color: var(--title-color);
-    transition: all .5s ease;
-}
-
-#contact #email-button:hover {
-    background-color: var(--title-color);
-    border: 0.125rem solid var(--title-color);
-    color: var(--secondary-bg-color);
 }

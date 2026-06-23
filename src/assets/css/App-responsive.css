@@ -1,8 +1,9 @@
-@media (min-width: 360px) {
-    #home {
-        padding: 15vh 2.5vw 0;
-    }
+/* Mobile base: 360px–412px
+   Shared rules for the three small-screen breakpoints:
+   technologies grid, icon size, technologies padding, and header image.
+   Only #home padding differs between them, so it's split below. */
 
+@media (max-width: 412px) {
     #technologies #technologies-box {
         grid-template-columns: 1fr 1fr;
     }
@@ -18,6 +19,12 @@
 
     #about-me #header img {
         width: 6rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 360px) {
+    #home {
+        padding: 15vh 2.5vw 0;
     }
 }
 
@@ -25,45 +32,11 @@
     #home {
         padding: 25vh 2.5vw 0;
     }
-
-    #technologies #technologies-box {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #technologies img {
-        height: 1.2rem;
-        width: 1.2rem;
-    }
-
-    #technologies {
-        padding: 3.158rem 2.5vw;
-    }
-
-    #about-me #header img {
-        width: 6rem;
-    }
 }
 
-@media (min-width: 396) and (max-width: 412px) {
+@media (min-width: 396px) and (max-width: 412px) {
     #home {
         padding: 29vh 2.5vw 0;
-    }
-
-    #technologies #technologies-box {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #technologies img {
-        height: 1.2rem;
-        width: 1.2rem;
-    }
-
-    #technologies {
-        padding: 3.158rem 2.5vw;
-    }
-
-    #about-me #header img {
-        width: 6rem;
     }
 }
 
@@ -71,7 +44,7 @@
     .nav-button {
         font-size: 1.30rem;
     }
-    
+
     #home h1 {
         font-size: 4.1256rem;
     }
@@ -119,6 +92,23 @@
     }
 }
 
+/* Shared: h2, h3/#slogan, .icons for 768px–1280px */
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    h2 {
+        font-size: 2.03125rem;
+    }
+
+    h3, #home #slogan {
+        font-size: 1.71875rem;
+    }
+
+    .icons {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 950px) {
     #nav {
         height: 3.90625rem;
@@ -133,22 +123,9 @@
     #home {
         padding: 25vh 2.5vw 0;
     }
-    
+
     #home h1 {
         font-size: 4.2975rem;
-    }
-
-    h2 {
-        font-size: 2.03125rem;
-    }
-
-    h3, #home #slogan {
-        font-size: 1.71875rem;
-    }
-
-    .icons {
-        height: 2.25rem;
-        width: 2.25rem;
     }
 
     #see-projects a {
@@ -172,11 +149,16 @@
     }
 }
 
+@media (min-width: 950px) {
+    #nav {
+        top: 0;
+        border-radius: 0 0 0.625rem 0.625rem;
+    }
+}
+
 @media (min-width: 950px) and (max-width: 1280px) {
     #nav {
         height: 3rem;
-        top: 0;
-        border-radius: 0 0 0.625rem 0.625rem;
     }
 
     #home {
@@ -186,27 +168,13 @@
     #see-projects {
         padding: 0 0 28vh;
     }
-    
+
     #home h1 {
         font-size: 4.2975rem;
-    }
-
-    h2 {
-        font-size: 2.03125rem;
-    }
-
-    .icons {
-        height: 2.25rem;
-        width: 2.25rem;
     }
 }
 
 @media (min-width: 1280px) {
-    #nav {
-        top: 0;
-        border-radius: 0 0 0.625rem 0.625rem;
-    }
-
     #home {
         padding: 20vh 2.5vw 0;
     }
@@ -214,7 +182,7 @@
     #see-projects {
         padding: 0 0 20vh;
     }
-    
+
     #home h1 {
         font-size: 6.876rem;
     }
