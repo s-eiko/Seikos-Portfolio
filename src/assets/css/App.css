@@ -120,6 +120,7 @@ hr {
     background-position:
         top left, top right, bottom right, bottom left, bottom right, bottom left, top left, top right;
     background-size: 50% 50%;
+    height: 100vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -172,14 +173,10 @@ hr {
 #home #social-box {
     display: flex;
     gap: 0 0.688rem;
+    margin-bottom: 1rem;
 }
 
 /* See Projects */
-
-#see-projects {
-    background: linear-gradient(to bottom, var(--secondary-bg-color), var(--primary-bg-color));
-    padding: 3.158rem 2.5vw 22vh;
-}
 
 #see-projects a {
     text-decoration: none;
@@ -203,6 +200,8 @@ hr {
 #technologies {
     text-align: center;
     padding-bottom: 3.5rem;
+    background: linear-gradient(to bottom, var(--secondary-bg-color), var(--primary-bg-color));
+    padding: 3.158rem 2.5vw 22vh;
 }
 
 #technologies h2 {

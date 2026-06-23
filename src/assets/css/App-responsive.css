@@ -1,3 +1,72 @@
+@media (min-width: 360px) {
+    #home {
+        padding: 15vh 2.5vw 0;
+    }
+
+    #technologies #technologies-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #technologies img {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+
+    #technologies {
+        padding: 3.158rem 2.5vw;
+    }
+
+    #about-me #header img {
+        width: 6rem;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 395px) {
+    #home {
+        padding: 25vh 2.5vw 0;
+    }
+
+    #technologies #technologies-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #technologies img {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+
+    #technologies {
+        padding: 3.158rem 2.5vw;
+    }
+
+    #about-me #header img {
+        width: 6rem;
+    }
+}
+
+@media (min-width: 396) and (max-width: 412px) {
+    #home {
+        padding: 29vh 2.5vw 0;
+    }
+
+    #technologies #technologies-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #technologies img {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+
+    #technologies {
+        padding: 3.158rem 2.5vw;
+    }
+
+    #about-me #header img {
+        width: 6rem;
+    }
+}
+
 @media (min-width: 413px) and (max-width: 768px) {
     .nav-button {
         font-size: 1.30rem;
@@ -24,8 +93,13 @@
         font-size: 1.4256rem;
     }
 
-    #technologies a {
-        font-size: 1.2rem;
+    #technologies #technologies-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #technologies img {
+        height: 1.2rem;
+        width: 1.2rem;
     }
 
     #projects .project-description,
@@ -38,6 +112,10 @@
     #contact #email-button,
     #technologies .technology-box p {
         font-size: 1.350rem;
+    }
+
+    #about-me #header img {
+        width: 7rem;
     }
 }
 
@@ -96,13 +174,9 @@
 
 @media (min-width: 950px) and (max-width: 1280px) {
     #nav {
-        height: 3.90625rem;
+        height: 3rem;
         top: 0;
         border-radius: 0 0 0.625rem 0.625rem;
-    }
-
-    .nav-button {
-        font-size: 1.5625rem;
     }
 
     #home {
@@ -110,7 +184,7 @@
     }
 
     #see-projects {
-        padding: 3.158rem 2.5vw 28vh;
+        padding: 0 0 28vh;
     }
     
     #home h1 {
@@ -121,53 +195,24 @@
         font-size: 2.03125rem;
     }
 
-    h3, #home #slogan {
-        font-size: 1.71875rem;
-    }
-
     .icons {
         height: 2.25rem;
         width: 2.25rem;
-    }
-
-    #see-projects a {
-        font-size: 1.485rem;
-    }
-
-    #technologies a {
-        font-size: 1.333rem;
-    }
-
-    #projects .project-description,
-    #projects .project-buttons-box a,
-    #about-me #about-me-buttons-box a,
-    #about-me .about-me-description,
-    #about-me h3,
-    #about-me p,
-    #contact p,
-    #contact #email-button,
-    #technologies .technology-box p {
-        font-size: 1.40625rem;
     }
 }
 
 @media (min-width: 1280px) {
     #nav {
-        /* height: 3.90625rem; */
         top: 0;
         border-radius: 0 0 0.625rem 0.625rem;
     }
 
-    /* .nav-button {
-        font-size: 1.5625rem;
-    } */
-
     #home {
-        padding: 23vh 2.5vw 0;
+        padding: 20vh 2.5vw 0;
     }
 
     #see-projects {
-        padding: 3.158rem 2.5vw 20vh;
+        padding: 0 0 20vh;
     }
     
     #home h1 {
@@ -187,14 +232,6 @@
         width: 1.7rem;
     }
 
-    /* #see-projects a {
-        font-size: 1.485rem;
-    }
-
-    #technologies a {
-        font-size: 1.333rem;
-    } */
-
     #projects #projects-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -208,18 +245,6 @@
     #projects .project-preview {
         width: 42.5vw;
     }
-
-    /* #projects .project-description,
-    #projects .project-buttons-box a,
-    #about-me #about-me-buttons-box a,
-    #about-me .about-me-description,
-    #about-me h3,
-    #about-me p,
-    #contact p,
-    #contact #email-button,
-    #technologies .technology-box p {
-        font-size: 1.40625rem;
-    } */
 
     #about-me #header {
         display: flex;
@@ -236,5 +261,25 @@
         display: flex;
         flex-direction: row;
         gap: 3rem;
+    }
+}
+
+@media (min-width: 1501px) {
+    #home {
+        padding: 28vh 2.5vw 0;
+    }
+}
+
+@media (min-width: 1900px) {
+    #home {
+        padding: 35vh 2.5vw 0;
+    }
+
+    #home h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 3rem;
     }
 }

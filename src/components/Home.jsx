@@ -14,6 +14,9 @@ export default function Home() {
                 <SocialLinks linkRef='https://github.com/s-eiko' imgSrc={githubImg} alt='Ícone do GitHub' />
                 <SocialLinks linkRef='https://www.linkedin.com/in/mariana-seiko-fukuoka-456323314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' imgSrc={linkedinImg} alt='Ícone do Linkedin' />
             </div>
+            <div id="see-projects">
+                <a href="https://github.com/s-eiko" target="_blank">Ver todos os projetos</a>
+            </div>
         </section>
     );
 }
