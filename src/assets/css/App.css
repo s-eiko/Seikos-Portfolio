@@ -106,11 +106,19 @@ hr {
 /* Home */
 
 #home {
-    background:
-        linear-gradient(to bottom right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%) bottom right,
-        linear-gradient(to bottom left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%) bottom left,
-        linear-gradient(to top left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%) top left,
-        linear-gradient(to top right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%) top right;
+    background-color: #1a1a1a;
+    background-image:
+        -webkit-linear-gradient(top left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        -webkit-linear-gradient(top right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        -webkit-linear-gradient(bottom right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        -webkit-linear-gradient(bottom left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+
+        linear-gradient(to bottom right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        linear-gradient(to bottom left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        linear-gradient(to top left, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%),
+        linear-gradient(to top right, var(--primary-bg-color) 35%, var(--secondary-bg-color) 50%);
+    background-position:
+        top left, top right, bottom right, bottom left, bottom right, bottom left, top left, top right;
     background-size: 50% 50%;
     background-repeat: no-repeat;
     display: flex;
